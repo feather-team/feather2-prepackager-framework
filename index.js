@@ -28,6 +28,7 @@ module.exports = function(ret, conf, setting, opt){
         }
         
         file.setContent(content);
+        file.id = 'static/' + item;
         ret.pkg[file.subpath] = file;
         ret.map.res[file.id] = {
             uri: file.getUrl()
