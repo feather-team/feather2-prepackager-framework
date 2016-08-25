@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "uglifyjs": "^2.4.10"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feather-team/feather2-prepackager-framework.git"
   }
 }
