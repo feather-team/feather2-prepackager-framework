@@ -7,6 +7,8 @@ module.exports = function(ret, conf, setting, opt){
         var file = feather.file.wrap(feather.project.getProjectPath() + '/static/' + item);
 
         if(item == 'feather.js'){
+            feather.config.set('require.config.rules', []);
+
             if(feather.config.get('autoPack.type') == 'combo'){
                 feather.config.set('require.config.combo', feather.config.get('autoPack.options'));
                 content += ';' + feather.util.read(LIB_ROOT + 'feather-combo.js', true);
