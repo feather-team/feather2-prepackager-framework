@@ -1,6 +1,6 @@
 {
   "name": "feather2-prepackager-framework",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "feather2.0生成公用类库",
   "main": "index.js",
   "scripts": {
