@@ -23,7 +23,7 @@ module.exports = function(ret, conf, setting, opt){
         }
         
         if(isPd){
-            content = require('uglifyjs').minify(content, {fromString: true}).code;
+            content = require('uglify-js').minify(content, {fromString: true}).code;
         }
         
         file.setContent(content);

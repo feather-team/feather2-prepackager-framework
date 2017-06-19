@@ -1,6 +1,6 @@
 {
   "name": "feather2-prepackager-framework",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "feather2.0生成公用类库",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "jsyczhanghao@sina.com",
   "license": "ISC",
   "dependencies": {
-    "uglifyjs": "^2.4.10"
+    "uglify-js": "2.4.15"
   },
     "repository": {
     "type": "git",
